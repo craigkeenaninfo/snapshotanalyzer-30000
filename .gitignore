@@ -1,5 +1,6 @@
 # Snapshotanalyzer-30000
-Pipfile
+Pipfile.lock
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
