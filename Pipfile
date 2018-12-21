@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipython3 = "*"
+ipython = "*"
+awscli = "*"
+
+[packages]
+boto3 = "*"
+click = "*"
+awscli = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
