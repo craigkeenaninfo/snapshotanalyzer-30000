@@ -1,6 +1,7 @@
 # Snapshotanalyzer-30000
 Pipfile.lock
 .vscode
+snapshotanalyzer_30000.egg-info
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -13,6 +13,8 @@ def filter_instances(project):
         instances = ec2.instances.filter(Filters=filters)
     else:
         instances = ec2.instances.all()
+    
+    return instances
 
 def has_pending_snapshot(volume):
     snapshots = list(volume.snapshots.all())
